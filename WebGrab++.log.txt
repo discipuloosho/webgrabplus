@@ -1,0 +1,592 @@
+﻿[        ] 
+[        ]              WebGrab+Plus/w MDB & REX Postprocess -- version  V1.57             
+[        ] 
+[        ]                                 Jan van Straaten                                
+[        ]                              Francis De Paemeleere                              
+[        ] 
+[        ]             thanks to Paul Weterings and all the contributing users             
+[        ] --------------------------------------------------------------------------------
+[        ] 
+[        ] Job started at 26/08/2017 15:00:01
+[  Debug ] 
+[  Debug ] Running  on: Unix 4.12.0.1
+[  Debug ] Environment: 4.0.30319.42000
+[  Debug ] Mono version: 4.6.2 (Debian 4.6.2.7+dfsg-1)
+[  Debug ] 
+[  Debug ] Loading timezone data
+[  Debug ] Embedded timezones source: WGconsole.WG.Common.timezonesdata.txt
+[  Debug ] Reading config file: /opt/webgrabplus/WebGrab++.config.xml
+[  Info  ] found: /opt/webgrabplus/plus.es.ini -- Revision 09
+[  Debug ] xmltv input file - /opt/webgrabplus/xmltv.xml - found
+[  Debug ] 5761 superfluous shows removed
+[Error   ] Could find existing channel (xmltv_id=MV3) in the config file
+[Error   ] Could find existing channel (xmltv_id=MV1) in the config file
+[Error   ] Could find existing channel (xmltv_id=CPACCI) in the config file
+[Error   ] Could find existing channel (xmltv_id=CPCOLE) in the config file
+[Error   ] Could find existing channel (xmltv_id=CPCOME) in the config file
+[Error   ] Could find existing channel (xmltv_id=CPXTRA) in the config file
+[Error   ] Could find existing channel (xmltv_id=CPSER) in the config file
+[Error   ] Could find existing channel (xmltv_id=MV2) in the config file
+[Error   ] Could find existing channel (xmltv_id=DCESP) in the config file
+[Error   ] Could find existing channel (xmltv_id=TCM) in the config file
+[Error   ] Could find existing channel (xmltv_id=HOLLYW) in the config file
+[Error   ] Could find existing channel (xmltv_id=FOXGE) in the config file
+[Error   ] Could find existing channel (xmltv_id=FOXCR) in the config file
+[Error   ] Could find existing channel (xmltv_id=PARCH) in the config file
+[Error   ] Could find existing channel (xmltv_id=AXN) in the config file
+[Error   ] Could find existing channel (xmltv_id=SET) in the config file
+[Error   ] Could find existing channel (xmltv_id=PCM) in the config file
+[Error   ] Could find existing channel (xmltv_id=COSMO) in the config file
+[Error   ] Could find existing channel (xmltv_id=TNT) in the config file
+[Error   ] Could find existing channel (xmltv_id=SCI-FI) in the config file
+[Error   ] Could find existing channel (xmltv_id=CL13) in the config file
+[Error   ] Could find existing channel (xmltv_id=AMC) in the config file
+[Error   ] Could find existing channel (xmltv_id=CPPART) in the config file
+[Error   ] Could find existing channel (xmltv_id=BELIGA) in the config file
+[Error   ] Could find existing channel (xmltv_id=BELIG1) in the config file
+[Error   ] Could find existing channel (xmltv_id=BELIG2) in the config file
+[Error   ] Could find existing channel (xmltv_id=CHUEFA) in the config file
+[Error   ] Could find existing channel (xmltv_id=BEMAX1) in the config file
+[Error   ] Could find existing channel (xmltv_id=GOL) in the config file
+[Error   ] Could find existing channel (xmltv_id=CPFUT) in the config file
+[Error   ] Could find existing channel (xmltv_id=GOLF+) in the config file
+[Error   ] Could find existing channel (xmltv_id=MVF1) in the config file
+[Error   ] Could find existing channel (xmltv_id=MVMTGP) in the config file
+[Error   ] Could find existing channel (xmltv_id=CPDEP) in the config file
+[Error   ] Could find existing channel (xmltv_id=CPD2) in the config file
+[Error   ] Could find existing channel (xmltv_id=ESP) in the config file
+[Error   ] Could find existing channel (xmltv_id=ESP2) in the config file
+[Error   ] Could find existing channel (xmltv_id=NATGEO) in the config file
+[Error   ] Could find existing channel (xmltv_id=CLASSD) in the config file
+[Error   ] Could find existing channel (xmltv_id=MEZZO) in the config file
+[Error   ] Could find existing channel (xmltv_id=MTV) in the config file
+[Error   ] Could find existing channel (xmltv_id=40TV) in the config file
+[Error   ] Could find existing channel (xmltv_id=TVE) in the config file
+[Error   ] Could find existing channel (xmltv_id=LA2) in the config file
+[Error   ] Could find existing channel (xmltv_id=A3) in the config file
+[Error   ] Could find existing channel (xmltv_id=C4) in the config file
+[Error   ] Could find existing channel (xmltv_id=T5) in the config file
+[Error   ] Could find existing channel (xmltv_id=FDFIC) in the config file
+[Error   ] Could find existing channel (xmltv_id=SEXTA) in the config file
+[Error   ] Could find existing channel (xmltv_id=BOING) in the config file
+[Error   ] Could find existing channel (xmltv_id=CLANTV) in the config file
+[Error   ] Could find existing channel (xmltv_id=DCH) in the config file
+[  Info  ] 
+[  Info  ] 
+[  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
+[  Info  ] 
+[  Info  ] 
+[  Info  ] Group (0) :
+[  Info  ] update requested for - 52 - out of - 52 - channels for 5 day(s)
+[  Debug ] 
+[  Info  ] (   1/52  ) PLUS.ES -- chan. (xmltv_id=MV3) -- mode Force
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (10sec)
+[Warning ] Retry 2 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 0.59 sec/update
+[  Info  ]    Summary for update of       MV3
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           99
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        99
+[  Info  ]      elapstime / updated show  0.59 seconds
+[  Debug ] 
+[  Info  ] (   2/52  ) PLUS.ES -- chan. (xmltv_id=MV1) -- mode Force
+[  Info  ] 0.61 sec/update
+[  Info  ]    Summary for update of       MV1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           88
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        88
+[  Info  ]      elapstime / updated show  0.61 seconds
+[  Debug ] 
+[  Info  ] (   3/52  ) PLUS.ES -- chan. (xmltv_id=CPACCI) -- mode Force
+[  Info  ] 0.52 sec/update
+[  Info  ]    Summary for update of       CPACCI
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           78
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        78
+[  Info  ]      elapstime / updated show  0.53 seconds
+[  Debug ] 
+[  Info  ] (   4/52  ) PLUS.ES -- chan. (xmltv_id=CPCOLE) -- mode Force
+[  Info  ] 0.62 sec/update
+[  Info  ]    Summary for update of       CPCOLE
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           81
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        81
+[  Info  ]      elapstime / updated show  0.62 seconds
+[  Debug ] 
+[  Info  ] (   5/52  ) PLUS.ES -- chan. (xmltv_id=CPCOME) -- mode Force
+[  Info  ] 0.62 sec/update
+[  Info  ]    Summary for update of       CPCOME
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           87
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        87
+[  Info  ]      elapstime / updated show  0.63 seconds
+[  Debug ] 
+[  Info  ] (   6/52  ) PLUS.ES -- chan. (xmltv_id=CPXTRA) -- mode Force
+[  Info  ] 0.49 sec/update
+[  Info  ]    Summary for update of       CPXTRA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           106
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        106
+[  Info  ]      elapstime / updated show  0.49 seconds
+[  Debug ] 
+[  Info  ] (   7/52  ) PLUS.ES -- chan. (xmltv_id=CPSER) -- mode Force
+[  Info  ] 0.61 sec/update
+[  Info  ]    Summary for update of       CPSER
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           167
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        167
+[  Info  ]      elapstime / updated show  0.62 seconds
+[  Debug ] 
+[  Info  ] (   8/52  ) PLUS.ES -- chan. (xmltv_id=MV2) -- mode Force
+[  Info  ] 0.33 sec/update
+[  Info  ]    Summary for update of       MV2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           135
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        135
+[  Info  ]      elapstime / updated show  0.34 seconds
+[  Debug ] 
+[  Info  ] (   9/52  ) PLUS.ES -- chan. (xmltv_id=DCESP) -- mode Force
+[  Info  ] 0.54 sec/update
+[  Info  ]    Summary for update of       DCESP
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           78
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        78
+[  Info  ]      elapstime / updated show  0.54 seconds
+[  Debug ] 
+[  Info  ] (  10/52  ) PLUS.ES -- chan. (xmltv_id=TCM) -- mode Force
+[  Info  ] 0.57 sec/update
+[  Info  ]    Summary for update of       TCM
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           72
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        72
+[  Info  ]      elapstime / updated show  0.57 seconds
+[  Debug ] 
+[  Info  ] (  11/52  ) PLUS.ES -- chan. (xmltv_id=HOLLYW) -- mode Force
+[  Info  ] 0.59 sec/update
+[  Info  ]    Summary for update of       HOLLYW
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           58
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        58
+[  Info  ]      elapstime / updated show  0.60 seconds
+[  Debug ] 
+[  Info  ] (  12/52  ) PLUS.ES -- chan. (xmltv_id=FOXGE) -- mode Force
+[  Info  ] 0.56 sec/update
+[  Info  ]    Summary for update of       FOXGE
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           162
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        162
+[  Info  ]      elapstime / updated show  0.56 seconds
+[  Debug ] 
+[  Info  ] (  13/52  ) PLUS.ES -- chan. (xmltv_id=FOXCR) -- mode Force
+[  Info  ] 0.63 sec/update
+[  Info  ]    Summary for update of       FOXCR
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           135
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        135
+[  Info  ]      elapstime / updated show  0.64 seconds
+[  Debug ] 
+[  Info  ] (  14/52  ) PLUS.ES -- chan. (xmltv_id=PARCH) -- mode Force
+[  Info  ] 0.47 sec/update
+[  Info  ]    Summary for update of       PARCH
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           86
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        86
+[  Info  ]      elapstime / updated show  0.48 seconds
+[  Debug ] 
+[  Info  ] (  15/52  ) PLUS.ES -- chan. (xmltv_id=AXN) -- mode Force
+[  Info  ] 0.63 sec/update
+[  Info  ]    Summary for update of       AXN
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           104
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        104
+[  Info  ]      elapstime / updated show  0.64 seconds
+[  Debug ] 
+[  Info  ] (  16/52  ) PLUS.ES -- chan. (xmltv_id=SET) -- mode Force
+[  Info  ] 0.61 sec/update
+[  Info  ]    Summary for update of       SET
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           90
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        90
+[  Info  ]      elapstime / updated show  0.61 seconds
+[  Debug ] 
+[  Info  ] (  17/52  ) PLUS.ES -- chan. (xmltv_id=PCM) -- mode Force
+[  Info  ] 0.60 sec/update
+[  Info  ]    Summary for update of       PCM
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           122
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        122
+[  Info  ]      elapstime / updated show  0.61 seconds
+[  Debug ] 
+[  Info  ] (  18/52  ) PLUS.ES -- chan. (xmltv_id=COSMO) -- mode Force
+[  Info  ] 0.63 sec/update
+[  Info  ]    Summary for update of       COSMO
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           108
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        108
+[  Info  ]      elapstime / updated show  0.63 seconds
+[  Debug ] 
+[  Info  ] (  19/52  ) PLUS.ES -- chan. (xmltv_id=TNT) -- mode Force
+[  Info  ] 0.70 sec/update
+[  Info  ]    Summary for update of       TNT
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           130
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        130
+[  Info  ]      elapstime / updated show  0.70 seconds
+[  Debug ] 
+[  Info  ] (  20/52  ) PLUS.ES -- chan. (xmltv_id=SCI-FI) -- mode Force
+[  Info  ] 0.61 sec/update
+[  Info  ]    Summary for update of       SCI-FI
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           128
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        128
+[  Info  ]      elapstime / updated show  0.61 seconds
+[  Debug ] 
+[  Info  ] (  21/52  ) PLUS.ES -- chan. (xmltv_id=CL13) -- mode Force
+[  Info  ] 0.70 sec/update
+[  Info  ]    Summary for update of       CL13
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           128
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        128
+[  Info  ]      elapstime / updated show  0.71 seconds
+[  Debug ] 
+[  Info  ] (  22/52  ) PLUS.ES -- chan. (xmltv_id=AMC) -- mode Force
+[  Info  ] 0.61 sec/update
+[  Info  ]    Summary for update of       AMC
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           65
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        65
+[  Info  ]      elapstime / updated show  0.61 seconds
+[  Debug ] 
+[  Info  ] (  23/52  ) PLUS.ES -- chan. (xmltv_id=CPPART) -- mode Force
+[  Info  ] 0.51 sec/update
+[  Debug ] 
+[  Info  ] (  24/52  ) PLUS.ES -- chan. (xmltv_id=BELIGA) -- mode Force
+[  Info  ] 0.63 sec/update
+[  Info  ]    Summary for update of       BELIGA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           103
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        103
+[  Info  ]      elapstime / updated show  0.63 seconds
+[  Debug ] 
+[  Info  ] (  25/52  ) PLUS.ES -- chan. (xmltv_id=BELIG1) -- mode Force
+[  Info  ] 0.55 sec/update
+[  Debug ] 
+[  Info  ] (  26/52  ) PLUS.ES -- chan. (xmltv_id=BELIG2) -- mode Force
+[  Info  ] 0.08 sec/update
+[  Debug ] 
+[  Info  ] (  27/52  ) PLUS.ES -- chan. (xmltv_id=CHUEFA) -- mode Force
+[  Info  ] 0.61 sec/update
+[  Info  ]    Summary for update of       CHUEFA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           86
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        86
+[  Info  ]      elapstime / updated show  0.61 seconds
+[  Debug ] 
+[  Info  ] (  28/52  ) PLUS.ES -- chan. (xmltv_id=BEMAX1) -- mode Force
+[  Info  ] 0.64 sec/update
+[  Debug ] 
+[  Info  ] (  29/52  ) PLUS.ES -- chan. (xmltv_id=GOL) -- mode Force
+[  Debug ]    suspicious      title in index page  = Post 1!??!2!??!3 
+[  Debug ]       differs from title in showdetails = Post 1|2|3
+[  Debug ]    suspicious      title in index page  = Resumen LaLiga 1!??!2!??!3 
+[  Debug ]       differs from title in showdetails = Resumen LaLiga 1|2|3
+[  Info  ] 0.59 sec/update
+[  Info  ]    Summary for update of       GOL
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           54
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        54
+[  Info  ]      elapstime / updated show  0.60 seconds
+[  Debug ] 
+[  Info  ] (  30/52  ) PLUS.ES -- chan. (xmltv_id=CPFUT) -- mode Force
+[  Info  ] 0.60 sec/update
+[  Info  ]    Summary for update of       CPFUT
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           104
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        104
+[  Info  ]      elapstime / updated show  0.60 seconds
+[  Debug ] 
+[  Info  ] (  31/52  ) PLUS.ES -- chan. (xmltv_id=GOLF+) -- mode Force
+[  Info  ] 0.62 sec/update
+[  Info  ]    Summary for update of       GOLF+
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           63
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        63
+[  Info  ]      elapstime / updated show  0.63 seconds
+[  Debug ] 
+[  Info  ] (  32/52  ) PLUS.ES -- chan. (xmltv_id=MVF1) -- mode Force
+[Warning ] error downloading page: The request timed out (5sec)
+[Warning ] Retry 1 of 4 times
+[  Info  ] 0.66 sec/update
+[  Info  ]    Summary for update of       MVF1
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           96
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        96
+[  Info  ]      elapstime / updated show  0.66 seconds
+[  Debug ] 
+[  Info  ] (  33/52  ) PLUS.ES -- chan. (xmltv_id=MVMTGP) -- mode Force
+[  Info  ] 0.65 sec/update
+[  Info  ]    Summary for update of       MVMTGP
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           167
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        167
+[  Info  ]      elapstime / updated show  0.66 seconds
+[  Debug ] 
+[  Info  ] (  34/52  ) PLUS.ES -- chan. (xmltv_id=CPDEP) -- mode Force
+[  Info  ] 0.59 sec/update
+[  Info  ]    Summary for update of       CPDEP
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           91
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        91
+[  Info  ]      elapstime / updated show  0.59 seconds
+[  Debug ] 
+[  Info  ] (  35/52  ) PLUS.ES -- chan. (xmltv_id=CPD2) -- mode Force
+[  Info  ] 0.60 sec/update
+[  Info  ]    Summary for update of       CPD2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           76
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        76
+[  Info  ]      elapstime / updated show  0.61 seconds
+[  Debug ] 
+[  Info  ] (  36/52  ) PLUS.ES -- chan. (xmltv_id=ESP) -- mode Force
+[  Info  ] 0.59 sec/update
+[  Info  ]    Summary for update of       ESP
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           101
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        101
+[  Info  ]      elapstime / updated show  0.59 seconds
+[  Debug ] 
+[  Info  ] (  37/52  ) PLUS.ES -- chan. (xmltv_id=ESP2) -- mode Force
+[  Info  ] 0.59 sec/update
+[  Info  ]    Summary for update of       ESP2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           89
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        89
+[  Info  ]      elapstime / updated show  0.60 seconds
+[  Debug ] 
+[  Info  ] (  38/52  ) PLUS.ES -- chan. (xmltv_id=NATGEO) -- mode Force
+[  Info  ] 0.65 sec/update
+[  Info  ]    Summary for update of       NATGEO
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           160
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        160
+[  Info  ]      elapstime / updated show  0.65 seconds
+[  Debug ] 
+[  Info  ] (  39/52  ) PLUS.ES -- chan. (xmltv_id=CLASSD) -- mode Force
+[  Info  ] 0.62 sec/update
+[  Info  ]    Summary for update of       CLASSD
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           89
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        89
+[  Info  ]      elapstime / updated show  0.63 seconds
+[  Debug ] 
+[  Info  ] (  40/52  ) PLUS.ES -- chan. (xmltv_id=MEZZO) -- mode Force
+[  Info  ] 0.58 sec/update
+[  Info  ]    Summary for update of       MEZZO
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           86
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        86
+[  Info  ]      elapstime / updated show  0.59 seconds
+[  Debug ] 
+[  Info  ] (  41/52  ) PLUS.ES -- chan. (xmltv_id=MTV) -- mode Force
+[  Info  ] 0.59 sec/update
+[  Info  ]    Summary for update of       MTV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           109
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        109
+[  Info  ]      elapstime / updated show  0.60 seconds
+[  Debug ] 
+[  Info  ] (  42/52  ) PLUS.ES -- chan. (xmltv_id=40TV) -- mode Force
+[Error   ] no shows in indexpage!
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  43/52  ) PLUS.ES -- chan. (xmltv_id=TVE) -- mode Force
+[  Info  ] 0.58 sec/update
+[  Info  ]    Summary for update of       TVE
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           101
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        101
+[  Info  ]      elapstime / updated show  0.58 seconds
+[  Debug ] 
+[  Info  ] (  44/52  ) PLUS.ES -- chan. (xmltv_id=LA2) -- mode Force
+[  Info  ] 0.57 sec/update
+[  Info  ]    Summary for update of       LA2
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           133
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        133
+[  Info  ]      elapstime / updated show  0.57 seconds
+[  Debug ] 
+[  Info  ] (  45/52  ) PLUS.ES -- chan. (xmltv_id=A3) -- mode Force
+[  Info  ] 0.58 sec/update
+[  Info  ]    Summary for update of       A3
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           109
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        109
+[  Info  ]      elapstime / updated show  0.59 seconds
+[  Debug ] 
+[  Info  ] (  46/52  ) PLUS.ES -- chan. (xmltv_id=C4) -- mode Force
+[  Info  ] 0.56 sec/update
+[  Info  ]    Summary for update of       C4
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           99
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        99
+[  Info  ]      elapstime / updated show  0.57 seconds
+[  Debug ] 
+[  Info  ] (  47/52  ) PLUS.ES -- chan. (xmltv_id=T5) -- mode Force
+[  Info  ] 0.56 sec/update
+[  Info  ]    Summary for update of       T5
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           87
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        87
+[  Info  ]      elapstime / updated show  0.57 seconds
+[  Debug ] 
+[  Info  ] (  48/52  ) PLUS.ES -- chan. (xmltv_id=FDFIC) -- mode Force
+[  Info  ] 0.61 sec/update
+[  Info  ]    Summary for update of       FDFIC
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           92
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        92
+[  Info  ]      elapstime / updated show  0.62 seconds
+[  Debug ] 
+[  Info  ] (  49/52  ) PLUS.ES -- chan. (xmltv_id=SEXTA) -- mode Force
+[  Info  ] 0.58 sec/update
+[  Info  ]    Summary for update of       SEXTA
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           95
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        95
+[  Info  ]      elapstime / updated show  0.59 seconds
+[  Debug ] 
+[  Info  ] (  50/52  ) PLUS.ES -- chan. (xmltv_id=BOING) -- mode Force
+[  Info  ] 0.56 sec/update
+[  Info  ]    Summary for update of       BOING
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           447
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        447
+[  Info  ]      elapstime / updated show  0.56 seconds
+[  Debug ] 
+[  Info  ] (  51/52  ) PLUS.ES -- chan. (xmltv_id=CLANTV) -- mode Force
+[  Info  ] 0.64 sec/update
+[  Info  ]    Summary for update of       CLANTV
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           314
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        314
+[  Info  ]      elapstime / updated show  0.65 seconds
+[  Debug ] 
+[  Info  ] (  52/52  ) PLUS.ES -- chan. (xmltv_id=DCH) -- mode Force
+[  Info  ] 0.65 sec/update
+[  Info  ]    Summary for update of       DCH
+[  Info  ]      missing shows added       0
+[  Info  ]      changed shows updated     0
+[  Info  ]      new shows added           383
+[  Info  ]      unchanged shows inspected 0
+[  Info  ]      total after update        383
+[  Info  ]      elapstime / updated show  0.66 seconds
+[  Debug ] 
+[  Debug ] 5668 shows in 52 channels
+[  Debug ] 0 updated shows
+[  Debug ] 5668 new shows added
+[  Info  ] 
+[  Info  ] 
+[        ] Job finished at 26/08/2017 15:59:33 done in 59m 32s
+[  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
